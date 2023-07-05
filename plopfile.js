@@ -24,6 +24,7 @@ module.exports = function (plop) {
     });
 
     plop.setGenerator("featureStructure",{
+        description: "Create Feature folders with index.js",
         prompts: [
             {
                 type: "input",
